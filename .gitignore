@@ -1,0 +1,22 @@
+# Ignore Python virtual environment folders
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore uploaded files or temporary data
+# If you handle user uploads, you don't want them in your Git repo.
+/backend/uploads/
+
+# Ignore TensorFlow.js model bin files if they are very large
+# and you prefer to handle them with Git LFS.
+# For this project's small size, you can probably include them.
+# If they are very large, uncomment the line below.
+# /backend/tfjs_model/*.bin
+
+# Ignore IDE specific files (e.g., VS Code)
+.vscode/
+.idea/

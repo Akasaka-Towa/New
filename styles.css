@@ -1,0 +1,95 @@
+/* Basic styling for the entire page */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+/* Main content area */
+main {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Styling for the file upload area */
+.upload-area {
+    margin-bottom: 30px;
+}
+
+.upload-area input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.upload-area button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-area button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the results display */
+.results-area {
+    margin-top: 20px;
+}
+
+#status {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#uploaded-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #888;
+}
